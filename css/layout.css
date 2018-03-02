@@ -1,0 +1,57 @@
+.navbar {
+	margin-bottom: 0px;
+}
+
+.jumbotron {
+	padding-top: 250px;
+	padding-bottom: 250px;
+	background-image: url(../img/back.jpg);
+	background-size: cover;
+	color: white;
+}
+
+section {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.icon-circle {
+	background-color: orange;
+	font-size: 80px;
+	color: white;
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	padding-top: 25px;
+	margin: auto;
+}
+
+.jarakatas {
+	padding-top: 50px;
+}
+
+
+
+.thumbnail {
+	border:0px;
+	border-radius: 0px;
+}
+
+.kecilin {
+
+	width: 260px;
+	margin-left: 50px;
+
+}
+
+
+.icon-sosmed {
+	background-color: black;
+	font-size: 50px;
+	color: white;
+	width: 85px;
+	height: 81px;
+	border-radius: 50%;
+	padding-top: 2px;
+	margin: auto;
+}

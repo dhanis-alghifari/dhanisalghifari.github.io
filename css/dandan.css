@@ -1,0 +1,272 @@
+body {
+	min-height: 900px;
+}
+
+section {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.footer {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+
+
+/*awal typewriting*/
+
+/*a .typewritee {
+  text-align: left;
+  color:#fff;
+  padding-top:10em;
+  
+}
+
+
+a:focus, a:hover {
+text-decoration: none;	
+}*/
+
+
+/*akhir typewriting*/
+
+/*awal progress bar*/
+.progress {
+  height: 35px;
+
+}
+.progress .skill {
+  font: normal 12px "Open Sans Web";
+  line-height: 35px;
+  padding: 0;
+  margin: 0 0 0 20px;
+  text-transform: uppercase;
+}
+.progress .skill .val {
+  float: right;
+  font-style: normal;
+  margin: 0 20px 0 0;
+}
+
+.progress-bar {
+  text-align: left;
+  transition-duration: 2s;
+}
+
+/*akhir progress bar*/
+
+
+/*awal form*/
+
+.red{
+    color:red;
+    }
+
+.form-area
+{
+   
+	padding: 10px 40px 60px;
+	margin: 10px 0px 60px;
+	
+	}
+
+/*akhir form*/
+
+/*awal footer*/
+
+.footer-bottom {
+    padding: 40px 0 30px;
+    border-top: 1px solid #666;
+    background: #1e1e1e;
+}
+.copyright-text p {
+    color: #ccc;
+    margin-top: 9px;
+    margin-bottom: 0;
+}
+.social-link li {
+    display: inline-block;
+    margin: 0 5px;
+}
+.social-link li a {
+    color: #ccc;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    transition: .5s;
+}
+
+/*akhir footer*/
+
+
+/*awal button*/
+/*.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.gpp  {
+  position: relative;
+  top: 10em;
+  right: 30em;
+  display: inline-block;
+  letter-spacing: 1.2px;
+  padding: 12px 32px;
+  text-align: center;
+  text-transform: uppercase;
+  overflow: hidden;
+  z-index: 1;
+  cursor: pointer;
+}
+.btn:focus {
+  outline: none;
+}
+.btn--primary {
+  color: lightslategray;
+}
+.btn--border {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.btn--animated {
+  transition-property: color;
+  transition-duration: 0.5s;
+}
+.btn--animated.btn--border.btn--primary {
+  border: 1px solid lightslategray;
+}
+.btn--animated:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: lightslategray;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+  z-index: -1;
+}
+.btn--animated:hover {
+  color: white;
+}
+.btn--animated:hover:before {
+  transform: scaleX(1);
+  transition-timing-function: cubic-bezier(0.45, 1.64, 0.47, 0.66);
+}*/
+/*akhir button*/
+
+
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+.navbar-default {
+    background-color: transparent;
+}
+
+.jumbotron {
+	padding-top: 250px;
+	padding-bottom: 250px;
+	background-image: url(../img/back.jpg);
+	background-size: cover;
+	color: white;
+}
+
+.jarakatas {
+	padding-top: 50px;
+}
+
+hr {
+	width: 250px;
+	border-top: 3px solid #999;
+}
+
+.pinggirin {
+	padding-right: 11em;
+}
+
+.pinggiran {
+	padding-right: 2em;
+	padding-top: 13px;
+}
+
+/*.tetap {
+	position: fixed;
+	top: 11px;
+	left: 91em;
+}*/
+
+/*awal navbar static*/
+a:hover {
+  color: #fec503;
+}
+
+#mainNav {
+  background-color: #212529;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: transparent;
+  }
+
+    #mainNav .navbar-brand {
+    font-size: 1.75em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em !important;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #212529;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+    padding: 12px 0;
+  }
+#mainNav .navbar-brand {
+  color: #DC2627;
+  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+}
+
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #fec503;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 90%;
+  font-weight: 400;
+  padding: 0.75em 0;
+  letter-spacing: 1px;
+  color: white;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #fed136;
+}
+

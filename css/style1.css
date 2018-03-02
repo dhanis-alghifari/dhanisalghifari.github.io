@@ -1,0 +1,66 @@
+.jumbotron {
+	background-image: url(../img/bg.png);
+	background-size: cover;
+	text-align: center;
+	min-height: 800px;
+	padding-top: 80px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100%
+}
+
+.menu {
+	margin-top: -12px;
+	padding-left: 24px;
+	text-align: right;
+	font-size: 20px;
+	color: white;
+}
+
+.menu a {
+	color: #fff;
+	padding-right: 20px;
+	cursor: pointer;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+.menu a:hover {
+		color:blue;
+	}
+
+.judul {
+	position: absolute;
+	top: 290px;
+	left: -21px;
+	color: #00f3ff;
+}
+
+.wrn {
+	color: #3b2dad;
+}
+
+.logo {
+	font-size: 30px;
+	margin-top: -30px;
+}
+
+
+.gl1 {
+	padding-top: 70px;
+	font-size: 80px;
+	padding-left: 135px;
+}
+
+.service {
+	padding-left: 31px;
+}
+
+.jarak {
+	padding-top: 130px;
+}
+
+.jarakbawah {
+	padding-bottom: 40px;
+}
