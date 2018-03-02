@@ -184,6 +184,7 @@ text-decoration: none;
 	background-image: url(../img/back.jpg);
 	background-size: cover;
 	color: white;
+    margin-bottom: 0px; 
 }
 
 .jarakatas {
