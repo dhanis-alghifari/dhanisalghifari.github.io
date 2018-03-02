@@ -212,7 +212,7 @@ hr {
 
 /*awal navbar static*/
 a:hover {
-  color: #fec503;
+  color: dimgrey;
 }
 
 #mainNav {
@@ -254,7 +254,7 @@ a:hover {
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: dimgrey;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -267,6 +267,6 @@ a:hover {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: dimgrey;
 }
 
